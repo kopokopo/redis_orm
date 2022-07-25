@@ -14,11 +14,11 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.25"
   s.summary = "ORM for Redis (advanced key-value storage) with ActiveRecord API"
 
-  s.add_runtime_dependency(%q<activesupport>, ["~> 5.1"])
-  s.add_runtime_dependency(%q<activemodel>, ["~> 5.1"])
-  s.add_runtime_dependency(%q<redis>, ["~> 4.2.5"])
+  s.add_runtime_dependency(%q<activesupport>, "6.1.4.6")
+  s.add_runtime_dependency(%q<activemodel>, "6.1.4.6")
+  s.add_runtime_dependency(%q<redis>, ["~> 4.0.0"])
   s.add_runtime_dependency(%q<uuid>, ["~> 2.3.2"])
   s.add_development_dependency(%q<rspec>, ["~> 3.10"])
-  s.add_development_dependency(%q<rspec-rails>, ["~> 4"])
+  s.add_development_dependency(%q<rspec-rails>, ["~> 5.0.0"])
   s.add_development_dependency(%q<ammeter>, ["~> 1.1"])
 end
